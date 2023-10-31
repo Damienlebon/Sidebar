@@ -15,7 +15,7 @@
                 sideBar.style.left = '0';
             }
             SidebarVisible = !SidebarVisible;
-            toggleBtn.classList.toggle('active', SidebarVisible);
+            toggleBtn.classList.toggle('active');
         });
 
         content.addEventListener('click', () => {
